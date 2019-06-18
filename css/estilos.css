@@ -106,8 +106,22 @@ header .resaltado,header .actual{
     width: 90px;
 }
 /*Lateral*/
-aside #lateral{
-    
+aside#lateral{
+    float: right;
+    width: 30%;
+    margin-top: 10px;
+}
+.oscuro{
+    padding: 15px;
+    background-color: rgba(55, 90, 132, 0.924);
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/*main-col*/
+article#main-col{
+    float: left;
+    width: 65%;
 }
 
 /*Footer o pie de pagina*/

@@ -1,0 +1,59 @@
+body{
+    font: 15px;
+    font-family: 'Quicksand', sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+/*Estilos globales*/
+.contenedor{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+.boton{
+    height: 38p;
+    background-color: #e8491d;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #fff;
+}
+/*Encabezado*/
+header{
+    background-color: #41c0a570;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: 5px solid #67bae4;
+}
+header a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+header li{
+    float: left;
+    display: inline;
+    /*padding en una sola linea top,right,bottom,left*/
+    padding: 0 20px 0 20px;    
+}
+header #marca{
+    float: left;
+}
+header #marca h1{
+    margin: 0;
+}
+header nav{
+    float: right;
+}
+/*resalta la primer palabra y el link Inicio*/
+header .resaltado,header .actual{
+    color: #1293d4;
+    font-weight: bold;
+}

@@ -57,3 +57,59 @@ header .resaltado,header .actual{
     color: #1293d4;
     font-weight: bold;
 }
+/*Cabecera con imagen*/
+#cabecera{
+    min-height: 400px;
+    /*Como se esta en la carpeta css se ponen 2 puntos 
+    para regresar y entrar en la carpeta img*/
+    background: url('../img/10.jpg') 0 -400px;
+    text-align: center;
+    color: #fff;
+}
+#cabecera h1{
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+#cabecera p{
+    font-size: 20px;
+}
+/*Formulario boletin*/
+#boletin{
+    padding: 15px;
+    color: #fff;
+    background: #24282b;
+}
+#boletin h1{
+    float: left;
+}
+#boletin form{
+    float: right;
+    margin-top: 15px;
+}
+#boletin input[type="email"]{
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+}
+/*Cajas*/
+#cajas{
+    margin-top: 20px;
+}
+#cajas .caja{
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+}
+#cajas .caja img{
+    width: 90px;
+}
+/*Footer o pie de pagina*/
+footer{
+    padding: 20px;
+    margin-top: 20px;
+    color:#fff;
+    background-color: #1293d4;
+    text-align: center;
+}
